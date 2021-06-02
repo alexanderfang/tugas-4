@@ -1,0 +1,32 @@
+:root {
+  --black: #272d3b;
+  --red: #ed176f;
+}
+
+nav {
+  background-color: var(--black);
+  opacity: 0.6;
+}
+
+ul.nav a:hover {
+  color: var(--red) !important;
+}
+
+.container-carousel {
+  height: 100vh;
+  padding: 0;
+}
+
+.img-banner {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousel-item {
+  transition: transform 4s ease, opacity 0.5s ease-out;
+}
+
+footer {
+  background-color: var(--black);
+}
